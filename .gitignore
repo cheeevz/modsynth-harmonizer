@@ -1,0 +1,53 @@
+# --- STM32CubeIDE / Eclipse ---
+Debug/
+Release/
+.settings/
+.metadata/
+*.launch
+.mxproject
+*.bak
+
+# Binaires et fichiers intermédiaires de compilation
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+
+# --- Tests unitaires sur PC (CMake) ---
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Testing/
+
+# --- KiCad ---
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+
+# --- Éditeurs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Enregistrements audio et vidéos de démo volumineux ---
+# (publier les vidéos sur une plateforme et mettre le lien dans le README)
+*.wav
+*.aiff
+*.mov
+*.mp4
